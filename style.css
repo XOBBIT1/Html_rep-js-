@@ -30,10 +30,12 @@
     line-height: 70px;
     height: 60px;
     letter-spacing: 5.70937px;
+    margin-top: 317px;
 }
 #text{
     font-size: 16px;
     line-height: 22px;
+    margin-bottom: 221px;
 }
 #down{
     font-family: "Open Sans";
@@ -50,10 +52,25 @@
     border: 1px solid #E6E6E6;
     box-sizing: border-box;
 }
-.line{
-    border: 2px solid #00A4E5;
-    margin: 10px;
+.conteiner_nav nav{
+    text-align: right;
+    position: absolute;
+    letter-spacing: 1.09091px;
+    left: 800px;
+    top: 790px;
 }
+.conteiner_nav a{
+    text-decoration: none;
+    color: #48555B;
+}
+
+.line{
+    border-bottom: 2px solid #00A4E5;
+    width: 64px;
+    margin-top: 10px;
+
+}
+
 
 #logo_nav{
     font-family: 'Bebas Neue';
@@ -119,7 +136,9 @@ span{
     color: #48555B;
 }
 .conteiner_aside1{
-    margin-left: 583px;
+    position: absolute;
+    left: 750px;
+    top: 1028px;
     color: rgb(255, 255, 255);
     font-family:" Open Sans";
     font-weight: 800;
@@ -137,6 +156,7 @@ span{
     background-size: contain;
     display: inline-block;
     margin-right: 10px;
+    padding: 10px;
     background-size: 100% 100%; 
 }
 
@@ -148,6 +168,7 @@ span{
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
+    padding: 10px;
     margin-right: 10px;
     background-size: 100% 100%; 
 }
@@ -155,6 +176,7 @@ span{
     background-image: url(IMG/WE\ BUELD.jpg);
     width: 100px;
     height: 200px;
+    padding: 10px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -178,8 +200,8 @@ span{
     width: 405.08px;
     height: 0px
 }
-#line2{
-    width: 50px;
+#line1{
+    margin: 10px auto;
 }
 #lorem2{
     width: 405.4px;
@@ -195,7 +217,9 @@ span{
     background: #00A4E5;
     width: 150px;
     height: 40px;
-    margin-left: 790px;
+    position: absolute;
+    left: 931px;
+    top: 1288px;
 }
 .all{
     width: 92px;
@@ -208,7 +232,7 @@ span{
     color: #FFFFFF;
     letter-spacing: 0.5px;
     text-decoration: none;
-    margin: 25px;
+    text-align: center;
 }
 .boxs{
     margin-top: 80px;
@@ -255,9 +279,13 @@ span{
     background-image: url(IMG/bg\ \(1\).jpg);
     background-size: 100% 100%;
     text-align: center;
+    padding: 120px 545px 306.24px;
 }
 #Want{
-    margin-top: 115px;
+    width: 350px;
+    height: 72px;
+    left: 545px;
+    top: 1984px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -265,20 +293,26 @@ span{
     line-height: 36px;
     letter-spacing: 0.15px;
     color: #48555B;
+    position: absolute;
+
 }
 
 #box2{
     background: #00A4E5;
     width: 150px;
     height: 40px;
-    margin-left: 680px;
-    margin-top: 35px;
+    position: absolute;
+    top: 2087px;
+    left: 640px;
+
 }
 .conteiner_signup{
 
     height: 100px;
     background: #171819;
     background-size: 100% 100%;
+    padding-top: 20px;
+    text-align: center;
 }
 
 #Newsletter{
@@ -291,7 +325,9 @@ span{
     color: #FFFFFF;
     width: 216px;
     height: 30px;
-    margin-left: 378px;
+    position: absolute;
+    left: 375px;
+    top: 2935.76px;
 }
 
 #email{
@@ -307,14 +343,16 @@ span{
     background: #00A4E5;
     width: 150px;
     height: 40px;
-    margin-left: 913px;
-    margin-bottom: 30px;
+    position: absolute;
+    left: 913px;
+    top: 2941.5px;
 }
 .conteiner_footer{
     height: 240px;
     background: #141A20;
     color: #FFFFFF;
     display: inline-block;
+    padding-top: 42px;
 }
 
 #logo_footer{
