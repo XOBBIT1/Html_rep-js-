@@ -9,14 +9,40 @@
 <body>
 
     <script>
-        list = new Array("Red","Green","Blue")
+        list = ["Red","Green","Blue"]
         document.write(list +"<p>")
         var i = prompt("Введите цвет:")
-        if (i in list) {
+        if (list.includes(i)) {
             document.write(i);
         } else{
             document.write("Такого цвета нет!!!");
-        }       
+        }
+
+
+        const person1 = {
+           name : "Pety",
+           age : 15,
+           info: function() {
+              console.log(`Имя человека: ${this.name}`),
+              console.log(`Возраст человека: ${this.age}`)
+           } 
+        }
+
+        const person2 = {
+            name: "Sany",
+            age: 21
+        }
+
+        person1.info()
+        person1.info.bind(person2)()
+
+        if(i <= 15){
+            console.log(`ШКОЛЯРЫ: ${person1.name}`)
+        }
+        else{
+            console.log(`ОЧКОВЫЕ:${person2.name}`)
+        }
+
     </script>
     
 </body>
